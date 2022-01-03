@@ -25,7 +25,7 @@ class InstagramBot:
         self.username = username
         self.password = password
         self.base_url = 'https://www.instagram.com'
-        self.arbitrary_user = 'tonyrobbins'
+        self.arbitrary_user = 'instagram'
         self.driver = webdriver.Chrome()
 
         self.login()
